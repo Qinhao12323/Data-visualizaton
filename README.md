@@ -20,16 +20,19 @@ The visualizations are designed to:
 
 ---
 
-star-wars-survey-visualization/
+## Star wars project structure
+.
 ├── data/
-│   └── processed/
-│       └── star_wars_survey_cleaned.csv
-│
+│   ├── raw/
+│   │   └──         # Original dataset downloaded via kagglehub
+│   └── processed
+│       └── star_wars_survey_cleaned.csv 
 ├── notebooks/
-│   └── star_wars_survey_visualization.ipynb
+│   └── Star_wars_survey_visualization.ipynb
 │
 ├── visuals/
-│   └── figures/        # Exported charts and plots
+│   └── figures/              # Exported charts and plots
+
 
 ## BMW Dataset
 
@@ -38,7 +41,7 @@ Source: Kaggle (accessed via kagglehub)
 File: BMW sales data (2010-2024).csv
 
 Type: Cleaned data (categorical, numerical, technical specifications)
-
+.
 bmw-data-visualization/
 ├── data/
 │   ├── raw/
